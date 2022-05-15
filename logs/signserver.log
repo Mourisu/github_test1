@@ -1,0 +1,15 @@
+2022-05-14 00:57:36,888 [main] DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2022-05-14 00:57:36,890 [main] DEBUG [org.apache.ibatis.logging.LogFactory] - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2022-05-14 00:57:36,914 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2022-05-14 00:57:36,914 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2022-05-14 00:57:36,914 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2022-05-14 00:57:36,915 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - PooledDataSource forcefully closed/removed all connections.
+2022-05-14 00:57:37,053 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Opening JDBC Connection
+2022-05-14 00:57:37,906 [main] DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] - Created connection 944427387.
+2022-05-14 00:57:37,907 [main] DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@384ad17b]
+2022-05-14 00:57:37,911 [main] DEBUG [test1.selectAll] - ==>  Preparing: select * from student
+2022-05-14 00:57:37,942 [main] DEBUG [test1.selectAll] - ==> Parameters: 
+2022-05-14 00:57:37,965 [main] DEBUG [test1.selectAll] - <==      Total: 1
+2022-05-14 00:57:37,969 [main] DEBUG [test1.getById] - ==>  Preparing: select * from student where id=?
+2022-05-14 00:57:37,969 [main] DEBUG [test1.getById] - ==> Parameters: null
+2022-05-14 00:57:37,973 [main] DEBUG [test1.getById] - <==      Total: 0
